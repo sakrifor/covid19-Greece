@@ -1,6 +1,6 @@
 # COVID19 (Coronavirus Disease) Dataset for Greece #
 
-**LAST UPDATE: 25/03/2020 13:00**
+**LAST UPDATE: 26/03/2020 13:00**
 **WILL BE UPDATED DAILY** 
 
 ## Aim ##
