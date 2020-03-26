@@ -25,7 +25,7 @@ Under [eody_data](eody_data/) folder you can find the raw files (.pdf) from the 
 - Men
 - Women
 - Age Identified
-- $\geq$ 65 Years Old
+- \>= 65 Years Old
 - 40-64 Years Old
 - 18-39 Years Old
 - 0-17 Years Old
