@@ -1,7 +1,10 @@
 # COVID19 (Coronavirus Disease) Dataset for Greece #
 
+## **This repository is not update daily since ΕΟΔΥ (National Organization of Public Health) stopped uploading their daily reports since 25/03.** ##
+
 **LAST UPDATE: 26/03/2020 13:00**
-**WILL BE UPDATED DAILY** 
+
+
 
 ## Aim ##
 The aim of this repository is to create a dataset for the SARS-CoV-2 epidemic in Greece.
