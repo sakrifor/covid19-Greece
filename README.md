@@ -1,10 +1,11 @@
-# COVID19 (Coronavirus Disease) Dataset for Greece #
+# COVID19 (Coronavirus Disease) Dataset for Greece :syringe:# 
 
-## **Please read the updates below for information on missing values** ##
-
-**LAST UPDATE: 29/03/2020 11:45**
+**:mega: LAST UPDATE: 03/04/2020 21:00** 
 
 ## Updates ##
+
+### 03/04/2020 ###
+- There are multiple missing values due to missing reports from [Εθνικός Οργανισμός Δημόσιας Υγείας](https://eody.gov.gr/). The missing values are reported at the table below. 
 
 ### 29/03/2020 ###
 - There are missing values from the 26/03/2020 to 29/03/2020 due to missing reports from National Organization of Public Health - [Εθνικός Οργανισμός Δημόσιας Υγείας](https://eody.gov.gr/). The data from 26/03/2020 to 28/03/2020 are obtained from the press releases published in the website of the [Ministry of Health](https://www.moh.gov.gr/articles/ministry/grafeio-typoy/press-releases) and also saved as pdfs under [raw folder](daataset/raw). 
@@ -28,12 +29,12 @@ Under [dataset](dataset/) folder you can find the raw files (.pdf) from the Nati
 
 | Variable                  | From       | To         | Missing Values           |
 |---------------------------|------------|------------|--------------------------|
-| Confirmed                 | 2020-02-26 | 2020-03-29 |                          |
-| Deaths                    | 2020-02-26 | 2020-03-29 |                          |
-| Tests                     | 2020-03-20 | 2020-03-29 | 2020-03-26               |
-| Recovered (from hospital) | 2020-02-26 | 2020-03-25 |                          |
+| Confirmed                 | 2020-02-26 | 2020-04-03 |                          |
+| Deaths                    | 2020-02-26 | 2020-04-03 |                          |
+| Tests                     | 2020-03-20 | 2020-04-03 | 2020-03-26               |
+| Recovered (from hospital) | 2020-02-26 | 2020-03-27 |                          |
 | In Hospital               | 2020-03-20 | 2020-03-25 |                          |
-| In Critical               | 2020-02-26 | 2020-03-29 |                          |
+| In Critical               | 2020-02-26 | 2020-04-03 |                          |
 | Hospitalized              | 2020-03-20 | 2020-03-25 |                          |
 | Citizenship Identified    | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
 | Greek Citizenship         | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
