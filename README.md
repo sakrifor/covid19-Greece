@@ -1,4 +1,4 @@
-# COVID19 (SARS-CoV-2) Epidemic Dataset for Greece # 
+# COVID-19 (SARS-CoV-2) Pandemic Dataset for Greece # 
 
 The aim of this repository is to create a dataset for the SARS-CoV-2 epidemic in Greece.
 
