@@ -1,8 +1,16 @@
-# COVID19 (Coronavirus Disease) Dataset for Greece :syringe: # 
+# COVID19 (SARS-CoV-2) Epidemic Dataset for Greece # 
 
-**:mega: LAST UPDATE: 03/04/2020 21:00** 
+The aim of this repository is to create a dataset for the SARS-CoV-2 epidemic in Greece.
+
+**:mega: LAST CASES UPDATE: 03/04/2020** 
 
 ## Updates ##
+
+### 04/04/2020 ###
+- Raw folder now contains also the press releases from [Εθνικός Οργανισμός Δημόσιας Υγείας](https://eody.gov.gr/) - Will be updated further
+- Variables are now splitted into two csv files (2 sheets in xlsx). Standard & Secondary. Secondary variables are variables with multiple missing values
+- New variables added in Standard and Secondary Variables. Standard Variables now include **Death (Women)** and **Death (Men)**. Secondary Variables now include **Death Age (>=65 Years Old)**, **Death Age (40-64 Years Old)**, **Death Age (18-39 Years Old)**, **Death Age (0-17 Years Old)**, **Travelers**, **Confirmed Transimission**. See the table below for more info.
+- Data from now on will also be based in press releases from [Εθνικός Οργανισμός Δημόσιας Υγείας](https://eody.gov.gr/)
 
 ### 03/04/2020 ###
 - There are multiple missing values due to missing reports from [Εθνικός Οργανισμός Δημόσιας Υγείας](https://eody.gov.gr/). The missing values are reported at the table below. 
@@ -14,42 +22,54 @@
 - *eody_data* folder renamed to *dataset*.
 - Several changes in the current README file.
 
-## Aim ##
-The aim of this repository is to create a dataset for the SARS-CoV-2 epidemic in Greece.
-
 ## Data Sources ##
 Data included are since the 26/02/2020, 1st confirmed case of SARS-CoV-2 in Greece. 
 
 Until **19/03/2020** data are retrieved from [Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE](https://github.com/CSSEGISandData/COVID-19)
 
-From **20/03/2020** data are obtained by parsing the reports from the National Organization of Public Health - [Εθνικός Οργανισμός Δημόσιας Υγείας](https://eody.gov.gr/) -- **SEE UPDATES**
+From **20/03/2020** data are obtained by parsing the reports and press releases from the National Organization of Public Health - [Εθνικός Οργανισμός Δημόσιας Υγείας](https://eody.gov.gr/)
 
 ## Data explained ##
-Under [dataset](dataset/) folder you can find the raw files (.pdf) from the National Organization of Public Health along with .csv and .xlsx files which contain the following variables as a timeline. The following table shows the availability of each field per date. 
+Under [dataset](dataset/) folder you can find the raw files (.pdf) from the National Organization of Public Health along with .csv(s) and .xlsx files which contain the following variables as a timeline. The following table shows the availability of each field per date. 
 
-| Variable                  | From       | To         | Missing Values           |
-|---------------------------|------------|------------|--------------------------|
-| Confirmed                 | 2020-02-26 | 2020-04-03 |                          |
-| Deaths                    | 2020-02-26 | 2020-04-03 |                          |
-| Tests                     | 2020-03-20 | 2020-04-03 | 2020-03-26               |
-| Recovered (from hospital) | 2020-02-26 | 2020-03-27 |                          |
-| In Hospital               | 2020-03-20 | 2020-03-25 |                          |
-| In Critical               | 2020-02-26 | 2020-04-03 |                          |
-| Hospitalized              | 2020-03-20 | 2020-03-25 |                          |
-| Citizenship Identified    | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| Greek Citizenship         | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| Gender Identified         | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| Men                       | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| Women                     | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| Age Identified            | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| \>= 65 Years Old          | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| 40-64 Years Old           | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| 18-39 Years Old           | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| 0-17 Years Old            | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
-| In Hospital (men)         | 2020-03-20 | 2020-03-25 |                          |
-| In Hospital (\>=65)       | 2020-03-20 | 2020-03-25 |                          |
+### STANRDARD VARIABLES ###
 
-Only **Confirmed**, **Deaths**, **Recovered** and **In Critical** are available before 20/03/20.
+| Variable                     | From       | To         | Missing Values           |
+|------------------------------|------------|------------|--------------------------|
+| Confirmed                    | 2020-02-26 | 2020-04-03 |                          |
+| Critical Condition           | 2020-02-26 | 2020-04-03 |                          |
+| Deaths                       | 2020-02-26 | 2020-04-03 |                          |
+| Tests                        | 2020-03-20 | 2020-04-03 | 2020-03-26               |
+| Recovered (from hospital)    | 2020-02-26 | 2020-03-27 |                          |
+| In Hospital                  | 2020-03-20 | 2020-03-25 |                          |
+| Confirmed (Men)              | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28, |
+| Confirmed (Women)            | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28, |
+| Confirmed (\>= 65 Years Old) | 2020-03-20 | 2020-04-03 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
+| Confirmed (40-64 Years Old)  | 2020-03-20 | 2020-04-03 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
+| Confirmed (18-39 Years Old)  | 2020-03-20 | 2020-04-03 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
+| Confirmed (0-17 Years Old)   | 2020-03-20 | 2020-04-03 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
+| Death (Women)                | 2020-02-26 | 2020-04-03 |                          |
+| Death (Men)                  | 2020-02-26 | 2020-04-03 |                          |
+
+
+### SECONDARY VARIABLES ###
+
+| Variable                    | From       | To         | Missing Values           |
+|---------------------------  |------------|------------|--------------------------|
+| Citizenship Identified      | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
+| Greek Citizenship           | 2020-03-20 | 2020-03-29 | 2020-03-26 - 2020-03-28  |
+| Hospitalized                | 2020-03-20 | 2020-03-25 |                          |
+| In Hospital (men)           | 2020-03-20 | 2020-03-25 |                          |
+| In Hospital (\>=65)         | 2020-03-20 | 2020-03-25 |                          |
+| Death Age (>=65 Years Old)  | 2020-04-03 | 2020-04-03 |                          |
+| Death Age (40-64 Years Old) | 2020-04-03 | 2020-04-03 |                          |
+| Death Age (18-39 Years Old) | 2020-04-03 | 2020-04-03 |                          |
+| Death Age (0-17 Years Old)  | 2020-04-03 | 2020-04-03 |                          |
+| Travelers                   | 2020-04-03 | 2020-04-03 |                          |
+| Confirmed Transimission     | 2020-04-03 | 2020-04-03 |                          |
+
+
+Only **Confirmed**, **Deaths**, **Recovered**, **Critical Condition**, **Death (Women)** and **Death (Men)**   are available before 20/03/20.
 
 ## Future Updates ##
 - Explanation of the variables
