@@ -2,7 +2,7 @@
 
 The aim of this repository is to create a dataset for the SARS-CoV-2 epidemic in Greece.
 
-**:mega: LAST CASES UPDATE: 05/04/2020** 
+**:mega: LAST CASES UPDATE: 06/04/2020** 
 
 ## Updates ##
 
