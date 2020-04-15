@@ -2,9 +2,16 @@
 
 The aim of this repository is to create a dataset for the SARS-CoV-2 epidemic in Greece.
 
-**:mega: LAST CASES UPDATE: 11/04/2020** 
+**:mega: LAST CASES UPDATE: 15/04/2020** 
 
 ## Updates ##
+### 15/04/2020 ###
+Missing values due to missing report from 12/04/2020 were replaced as follows: Confirmed (Men), Confirmed (Women), Confirmed (>= 65 Years Old), Confirmed (40-64 Years Old), Confirmed (18-39 Years Old), Confirmed (0-17 Years Old) were replaced with the rounded (up) median value of the 11/04/2020 and 13/04/2020. Death Age (>=65 Years Old), Death Age (40-64 Years Old), Death Age (18-39 Years Old), Death Age (0-17 Years Old) were cross references from the news and are the actual values. All the other vales can be obtained from the press release.
+
+r1 -> 12/04/2020 - [3 Death Age (>=65 Years Old) + 2 Death Age (Unidentified)](https://www.lifo.gr/now/greece/278098/koronoios-megalonei-o-arithmon-thymaton-stin-ellada-alloi-dyo-nekroi)
+r2 -> 12/04/2020 - [1 Death Age (>=65 Years Old)](https://www.news247.gr/koinonia/koronoios-stoys-99-oi-nekroi-stin-ellada.7622521.html) 
+
+From the above we find out that the 2 Deaths with unidentified age are within the 40-64 Age group.
 
 ### 05/04/2020 ###
 - Missing values are now reported as blank (Nan) rather than 0.
