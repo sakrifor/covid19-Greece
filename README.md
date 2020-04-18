@@ -2,9 +2,13 @@
 
 The aim of this repository is to create a dataset for the SARS-CoV-2 epidemic in Greece.
 
-**:mega: LAST CASES UPDATE: 15/04/2020** 
+**:mega: LAST CASES UPDATE: 18/04/2020** 
 
 ## Updates ##
+
+### 19/04/2020 ###
+**Tests** variable on 14/04/2020 deleted due to misleading information in the press releases and reports.
+
 ### 15/04/2020 ###
 Missing values due to missing report from 12/04/2020 were replaced as follows: Confirmed (Men), Confirmed (Women), Confirmed (>= 65 Years Old), Confirmed (40-64 Years Old), Confirmed (18-39 Years Old), Confirmed (0-17 Years Old) were replaced with the rounded (up) median value of the 11/04/2020 and 13/04/2020. Death Age (>=65 Years Old), Death Age (40-64 Years Old), Death Age (18-39 Years Old), Death Age (0-17 Years Old) were cross references from the news and are the actual values. All the other vales can be obtained from the press release.
 
@@ -47,20 +51,20 @@ Under [dataset](dataset/) folder you can find the raw files (.pdf) from the Nati
 
 | Variable                     | From       | To         | Missing Values           |
 |------------------------------|------------|------------|--------------------------|
-| Confirmed                    | 2020-02-26 | 2020-04-11 |                          |
-| Critical Condition           | 2020-02-26 | 2020-04-11 |                          |
-| Deaths                       | 2020-02-26 | 2020-04-11 |                          |
-| Tests                        | 2020-03-20 | 2020-04-11 | 2020-03-26               |
+| Confirmed                    | 2020-02-26 | 2020-04-18 |                          |
+| Critical Condition           | 2020-02-26 | 2020-04-18 |                          |
+| Deaths                       | 2020-02-26 | 2020-04-18 |                          |
+| Tests                        | 2020-03-20 | 2020-04-18 | 2020-03-26, 2020-04-14   |
 | Recovered (from hospital)    | 2020-02-26 | 2020-03-27 |                          |
 | In Hospital                  | 2020-03-20 | 2020-03-25 |                          |
-| Confirmed (Men)              | 2020-03-20 | 2020-04-11 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-03 |
-| Confirmed (Women)            | 2020-03-20 | 2020-04-11 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-03 |
-| Confirmed (\>= 65 Years Old) | 2020-03-20 | 2020-04-11 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
-| Confirmed (40-64 Years Old)  | 2020-03-20 | 2020-04-11 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
-| Confirmed (18-39 Years Old)  | 2020-03-20 | 2020-04-11 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
-| Confirmed (0-17 Years Old)   | 2020-03-20 | 2020-04-11 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
-| Death (Women)                | 2020-02-26 | 2020-04-11 |                          |
-| Death (Men)                  | 2020-02-26 | 2020-04-11 |                          |
+| Confirmed (Men)              | 2020-03-20 | 2020-04-18 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-03 |
+| Confirmed (Women)            | 2020-03-20 | 2020-04-18 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-03 |
+| Confirmed (\>= 65 Years Old) | 2020-03-20 | 2020-04-18 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
+| Confirmed (40-64 Years Old)  | 2020-03-20 | 2020-04-18 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
+| Confirmed (18-39 Years Old)  | 2020-03-20 | 2020-04-18 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
+| Confirmed (0-17 Years Old)   | 2020-03-20 | 2020-04-18 | 2020-03-26 - 2020-03-28, 2020-03-30 - 2020-04-02  |
+| Death (Women)                | 2020-02-26 | 2020-04-18 |                          |
+| Death (Men)                  | 2020-02-26 | 2020-04-18 |                          |
 
 
 ### SECONDARY VARIABLES ###
@@ -72,12 +76,12 @@ Under [dataset](dataset/) folder you can find the raw files (.pdf) from the Nati
 | Hospitalized                | 2020-03-20 | 2020-03-25 |                          |
 | In Hospital (men)           | 2020-03-20 | 2020-03-25 |                          |
 | In Hospital (\>=65)         | 2020-03-20 | 2020-03-25 |                          |
-| Death Age (>=65 Years Old)  | 2020-04-03 | 2020-04-11 |                          |
-| Death Age (40-64 Years Old) | 2020-04-03 | 2020-04-11 |                          |
-| Death Age (18-39 Years Old) | 2020-04-03 | 2020-04-11 |                          |
-| Death Age (0-17 Years Old)  | 2020-04-03 | 2020-04-11 |                          |
-| Travelers                   | 2020-04-03 | 2020-04-11 |                          |
-| Confirmed Transimission     | 2020-04-03 | 2020-04-11 |                          |
+| Death Age (>=65 Years Old)  | 2020-04-03 | 2020-04-18 |                          |
+| Death Age (40-64 Years Old) | 2020-04-03 | 2020-04-18 |                          |
+| Death Age (18-39 Years Old) | 2020-04-03 | 2020-04-18 |                          |
+| Death Age (0-17 Years Old)  | 2020-04-03 | 2020-04-18 |                          |
+| Travelers                   | 2020-04-03 | 2020-04-18 |                          |
+| Confirmed Transimission     | 2020-04-03 | 2020-04-18 |                          |
 
 
 Only **Confirmed**, **Deaths**, **Recovered**, **Critical Condition**, **Death (Women)** and **Death (Men)**   are available before 20/03/20.
